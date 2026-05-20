@@ -1,0 +1,12 @@
+# Ignorar las carpetas de compilación de Qt
+build/
+build-*/
+*.user
+
+# Ignorar archivos compilados de C++
+*.o
+*.obj
+*.exe
+
+# Ignorar configuraciones locales de la carpeta de Qt Creator
+.qtcreator/
