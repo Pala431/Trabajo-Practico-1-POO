@@ -8,6 +8,13 @@ qt_standard_project_setup()
 qt_add_executable(TP1_POO
     main.cpp
     elementos.h elementos.cpp
+    jugador.h
+    jugador.cpp
+    tabladedanios.h
+    matrizdanio.cpp
+
+
+
 )
 
 target_link_libraries(TP1_POO
