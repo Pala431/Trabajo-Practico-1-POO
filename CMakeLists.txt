@@ -12,6 +12,8 @@ qt_add_executable(TP1_POO
     jugador.cpp
     tabladedanios.h
     matrizdanio.cpp
+    partida.h
+    partida.cpp
 
 
 

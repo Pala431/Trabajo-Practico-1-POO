@@ -1,6 +1,6 @@
 #include "jugador.h"
 
-// constructor
+
 jugador::jugador(std::string _nombre) {
     nombre = _nombre;
     for (int i = 0; i < 5; i++) {
@@ -8,7 +8,6 @@ jugador::jugador(std::string _nombre) {
     }
 }
 
-// destructor
 jugador::~jugador() {
     for (int i = 0; i < 5; i++) {
         if (equipo[i] != nullptr) {

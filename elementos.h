@@ -17,6 +17,7 @@ public:
     virtual ~Elemento();
     virtual TipoElem Ataque() const = 0;
     virtual TipoElem Defensa() const = 0;
+    int getEnergia() const; //para la super ia
 
     void RecDanio(int cantidad);
     bool AreUAlive() const;

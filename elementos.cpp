@@ -5,7 +5,6 @@ Elemento::Elemento() { //constructor
 }
 Elemento::~Elemento() { //destructor
 }
-
 void Elemento::RecDanio(int cantidad){ //funcion para recibir daño
     energia -= cantidad;
     if (energia <0){
@@ -13,9 +12,12 @@ void Elemento::RecDanio(int cantidad){ //funcion para recibir daño
 
     }
 }
-
 bool Elemento::AreUAlive() const { // is bro alive?
     return energia > 0;
+}
+
+int Elemento::getEnergia() const { //para la super ia
+    return energia;
 }
 
 //reglas de los elements para defena y ataque
